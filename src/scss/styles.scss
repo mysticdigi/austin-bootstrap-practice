@@ -9,4 +9,28 @@
 // Import Bootstrap styles
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
+a:hover{ 
+    text-decoration: underline;
+    color:white;
+}
+
+a:active{
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: Pacifico;
+    src:url(..\google-font\Pacifico-Regular.ttf)
+}
+
+.jumbotron{
+    background-image: url(..\img\pirate-ship.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: Pacifico, cursive;
+}
+
+
+
 // Import partials here
