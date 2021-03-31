@@ -8,6 +8,7 @@
 
 // Import Bootstrap styles
 @import "../../node_modules/bootstrap/scss/bootstrap";
+// Import partials here
 
 a:hover{ 
     text-decoration: underline;
@@ -55,6 +56,9 @@ footer{
 }
 
 
-
-
-// Import partials here
+.card-header .fa {
+    transition: .3s transform ease-in-out;
+  }
+  .card-header .collapsed .fa {
+    transform: rotate(90deg);
+  }
